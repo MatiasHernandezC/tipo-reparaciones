@@ -1,0 +1,17 @@
+server:
+    port: 8090
+
+spring:
+    application:
+        name: proyecto_autofix
+    jpa:
+        show-sql: true
+        hibernate:
+            dialect: MySQL8Dialect
+            ddl-auto: create
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        dbname: autofix
+        url: jdbc:mysql://localhost:3306/autofix
+        username: root
+        password: user
